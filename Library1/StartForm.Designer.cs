@@ -38,9 +38,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.ControlLightLight;
+            label1.BackColor = SystemColors.ControlLight;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(186, 46);
+            label1.Location = new Point(181, 49);
             label1.Name = "label1";
             label1.Size = new Size(274, 35);
             label1.TabIndex = 0;
@@ -49,9 +49,9 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.ControlLightLight;
+            label2.BackColor = SystemColors.ControlLight;
             label2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(398, 121);
+            label2.Location = new Point(411, 151);
             label2.Name = "label2";
             label2.Size = new Size(119, 25);
             label2.TabIndex = 3;
@@ -59,7 +59,7 @@
             // 
             // logInButton
             // 
-            logInButton.Location = new Point(409, 196);
+            logInButton.Location = new Point(422, 226);
             logInButton.Name = "logInButton";
             logInButton.Size = new Size(94, 29);
             logInButton.TabIndex = 4;
@@ -70,9 +70,9 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = SystemColors.ControlLightLight;
+            label3.BackColor = SystemColors.ControlLight;
             label3.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(72, 121);
+            label3.Location = new Point(85, 151);
             label3.Name = "label3";
             label3.Size = new Size(208, 25);
             label3.TabIndex = 5;
@@ -81,7 +81,7 @@
             // toLibraryButton
             // 
             toLibraryButton.BackColor = SystemColors.Control;
-            toLibraryButton.Location = new Point(116, 196);
+            toLibraryButton.Location = new Point(129, 226);
             toLibraryButton.Name = "toLibraryButton";
             toLibraryButton.Size = new Size(94, 29);
             toLibraryButton.TabIndex = 6;
@@ -93,9 +93,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.bok;
+            BackColor = SystemColors.ControlLight;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(628, 450);
+            ClientSize = new Size(628, 428);
             Controls.Add(toLibraryButton);
             Controls.Add(label3);
             Controls.Add(logInButton);

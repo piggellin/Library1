@@ -75,7 +75,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.bok;
+            BackColor = SystemColors.ControlLightLight;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(389, 395);
             Controls.Add(logInbutton1);
