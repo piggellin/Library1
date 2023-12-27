@@ -33,6 +33,7 @@
             logInButton = new Button();
             label3 = new Label();
             toLibraryButton = new Button();
+            exitButton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -80,7 +81,7 @@
             // 
             // toLibraryButton
             // 
-            toLibraryButton.BackColor = SystemColors.Control;
+            toLibraryButton.BackColor = SystemColors.ControlLightLight;
             toLibraryButton.Location = new Point(129, 226);
             toLibraryButton.Name = "toLibraryButton";
             toLibraryButton.Size = new Size(94, 29);
@@ -89,6 +90,16 @@
             toLibraryButton.UseVisualStyleBackColor = false;
             toLibraryButton.Click += toLibraryButton_Click;
             // 
+            // exitButton
+            // 
+            exitButton.Location = new Point(522, 387);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(94, 29);
+            exitButton.TabIndex = 7;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
+            // 
             // StartForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -96,6 +107,7 @@
             BackColor = SystemColors.ControlLight;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(628, 428);
+            Controls.Add(exitButton);
             Controls.Add(toLibraryButton);
             Controls.Add(label3);
             Controls.Add(logInButton);
@@ -116,5 +128,6 @@
         private Button logInButton;
         private Label label3;
         private Button toLibraryButton;
+        private Button exitButton;
     }
 }

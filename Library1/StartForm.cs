@@ -31,6 +31,11 @@ namespace Library1
 
         private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
         {
+
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
             System.Environment.Exit(0);
         }
     }

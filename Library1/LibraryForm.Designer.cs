@@ -46,11 +46,11 @@
             // 
             // borrowButton
             // 
-            borrowButton.Location = new Point(402, 347);
+            borrowButton.Location = new Point(392, 285);
             borrowButton.Name = "borrowButton";
-            borrowButton.Size = new Size(94, 29);
+            borrowButton.Size = new Size(137, 29);
             borrowButton.TabIndex = 1;
-            borrowButton.Text = "Borrow";
+            borrowButton.Text = "Borrow Book";
             borrowButton.UseVisualStyleBackColor = true;
             borrowButton.Click += borrowButton_Click;
             // 
@@ -67,7 +67,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.ControlLightLight;
+            label1.BackColor = SystemColors.ControlLight;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(368, 9);
             label1.Name = "label1";
@@ -78,7 +78,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.ControlLightLight;
+            label2.BackColor = SystemColors.ControlLight;
             label2.Location = new Point(114, 49);
             label2.Name = "label2";
             label2.Size = new Size(110, 20);
@@ -89,7 +89,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonFace;
+            BackColor = SystemColors.ControlLight;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(label2);
